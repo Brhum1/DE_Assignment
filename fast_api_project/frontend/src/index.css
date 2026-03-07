@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+/* إذا أردت تطبيق ستايل على الـ body */
+@theme {
+  --font-sans: 'Inter', 'system-ui', 'sans-serif';
+}
+
+body {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+
+}
