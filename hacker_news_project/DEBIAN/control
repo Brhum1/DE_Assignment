@@ -1,0 +1,6 @@
+Package: hn-scraper-api
+Version: 1.0
+Architecture: all
+Maintainer: Ebrahim Mansour ialhakimi2020@gmail.com
+Description: FastAPI service that scrapes Hacker News and serves it on port 8000
+Depends: python3, python3-requests, python3-bs4, python3-fastapi, python3-uvicorn

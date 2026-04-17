@@ -1,0 +1,20 @@
+[Unit]
+Description=Hacker News Web Scraper API Service
+After=network.target
+
+[Service]
+# تحديد المستخدم الذي سيشغل الخدمة
+User=root
+
+# تحديد مسار العمل (أين توجد الأكواد في النظام النهائي)
+WorkingDirectory=/opt/hn_api
+
+# الأمر الفعلي لتشغيل الخادم (نستخدم بايثون النظام لأن الحزمة ستثبت المكتبات هناك)
+ExecStart=/usr/bin/python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
+
+# إعادة التشغيل تلقائياً إذا توقف السكربت لأي سبب
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

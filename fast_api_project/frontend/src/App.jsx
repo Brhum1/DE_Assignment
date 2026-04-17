@@ -106,7 +106,7 @@ function App() {
                       <h3 className="text-xl font-bold text-gray-800">{project.title}</h3>
                       <button onClick={() => deleteProject(project.id)} className="text-gray-300 hover:text-red-500 transition-colors p-1 text-xl cursor-pointer">🗑️</button>
                     </div>
-                    <p className="text-gray-600 text-sm mb-6 flex-grow">{project.description || "لا يوجد وصف"}</p>
+                    <p className="text-gray-600 text-sm mb-6 grow">{project.description || "لا يوجد وصف"}</p>
                     <button 
                       onClick={() => toggleProjectTasks(project.id)}
                       className="text-sm font-bold text-indigo-600 bg-indigo-50 hover:bg-indigo-100 px-4 py-2 rounded-lg transition-colors border border-indigo-100 mb-4 cursor-pointer"
