@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# e_commerce_dwh project
+e_commerce_dwh/venv
+e_commerce_dwh/error.log
+e_commerce_dwh/data
+e_commerce_dwh/Data-Engineering-Assignment.docx
+"e_commerce_dwh/\360\237\223\230 Data-Engineering-Assignment.docx"
