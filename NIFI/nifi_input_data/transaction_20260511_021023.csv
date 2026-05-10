@@ -1,0 +1,10 @@
+CustomerID,Name,Email,JoinDate
+102,Sara Ali,sara_at_example.com,15/05/2023
+,Missing ID,id@null.com,2024-03-01
+101,Ahmed Mansour,ahmed@example.com,2023-01-10
+ERR_99,Invalid User,unknown@mail.com,2024-02-01
+101,Ahmed Mansour,ahmed@example.com,2023-01-10
+101,Ahmed Mansour,ahmed@example.com,2023-01-10
+101,Ahmed Mansour,ahmed@example.com,2023-01-10
+ERR_99,Invalid User,unknown@mail.com,2024-02-01
+101,Ahmed Mansour,ahmed@example.com,2023-01-10
